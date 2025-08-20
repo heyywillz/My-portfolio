@@ -460,7 +460,6 @@ width: fit-content;
 
   .hero p {
     width: 100%;
-    text-align: justify;
   }
 
   .hero-btn {
@@ -476,6 +475,6 @@ width: fit-content;
   }
 
   .about-text p {
-    text-align: center;
+    text-align: justify;
   }
 }
