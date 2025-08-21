@@ -475,7 +475,6 @@ main {
   }
 
   .about-text p {
-    text-align: justify;
-    hyphens: auto;
+    text-align: start;
   }
 }
