@@ -470,13 +470,8 @@ main {
     width: 85vw;
   }
 
-  .section-title {
-    border: 1px solid var(--text-color);
-  }
-
   .about-container {
-    margin-top: 0.5rem;
-    border: 1px solid var(--text-color);
+    margin-top: 0.2rem;
   }
 
   .about-text p {
