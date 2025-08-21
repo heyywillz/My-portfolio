@@ -347,9 +347,9 @@ main {
   background-color: #101111;
 }
 
-.section-title p{
-    width: 50%;
-    margin: 0 auto;
+.section-title p {
+  width: 50%;
+  margin: 0 auto;
 }
 
 .project-card {
@@ -368,7 +368,7 @@ main {
 
 .project-image {
   border: 1px solid var(--text-color);
-width: fit-content;
+  width: fit-content;
 }
 
 .project-image img {
@@ -377,7 +377,7 @@ width: fit-content;
 }
 
 .project-text h3 {
-    font-family: "Afacad", sans-serif;
+  font-family: "Afacad", sans-serif;
   font-size: 2rem;
   font-weight: 300;
   color: var(--primary-color);
@@ -476,5 +476,6 @@ width: fit-content;
 
   .about-text p {
     text-align: justify;
+    hyphens: auto;
   }
 }
