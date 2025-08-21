@@ -475,6 +475,6 @@ main {
   }
 
   .about-text p {
-    text-align: center;
+    text-align: start;
   }
 }
