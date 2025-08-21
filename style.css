@@ -476,7 +476,7 @@ main {
 
   .about-container {
     margin-top: 0.5rem;
-    border: 1px;
+    border: 1px solid var(--text-color);
   }
 
   .about-text p {
