@@ -8,7 +8,7 @@
 
 :root {
   --background-color: #171818;
-  --text-color: #807f77;
+  --text-color: #808289;
   --primary-color: #fff;
 }
 
@@ -39,11 +39,10 @@ header {
   gap: 1rem;
 }
 
-.logo-image {
+.logo img {
   width: 50px;
   height: 50px;
-  border-radius: 50px;
-  background-color: var(--primary-color);
+  border-radius: 50%;
 }
 
 .logo h3 {
@@ -352,22 +351,31 @@ main {
   margin: 0 auto;
 }
 
+.projects {
+  margin-bottom: 3rem;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
 .project-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-  padding: 4rem 3rem;
+  padding: 3.3rem 3rem 3rem 3rem;
   background-color: #101111;
+  border: 0.2px solid #1e1e1e;
 }
 
 .project-text {
   width: 50%;
-  border: 1px solid var(--text-color);
 }
 
 .project-image {
-  border: 1px solid var(--text-color);
   width: fit-content;
 }
 
@@ -381,6 +389,104 @@ main {
   font-size: 2rem;
   font-weight: 300;
   color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.project-tags span {
+  display: inline-block;
+  font-size: 0.9rem;
+  border: 2px dashed var(--text-color);
+  padding: 0.3rem 1rem;
+  border-radius: 50px;
+  background-color: #101111;
+}
+
+.project-tags {
+  border-bottom: 2px dashed var(--text-color);
+  padding: 1.5rem 0;
+}
+
+.project-btn {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: end;
+  margin-top: 1.5rem;
+}
+
+.project-btn a:first-child {
+  border-radius: 50px;
+  padding: 0.5rem 1.2rem;
+  text-decoration: none;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.project-btn a:last-child {
+  border-radius: 50px;
+  padding: 0.5rem 1.2rem;
+  text-decoration: none;
+  color: var(--background-color);
+  background-color: var(--primary-color);
+}
+
+.testimonial {
+  margin: 12rem 0;
+}
+
+.testimonial-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.testimonial-card .card {
+  background-color: #101111;
+  border: 0.2px solid #1e1e1e;
+  padding: 1.5rem;
+  width: 620px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-title h3 {
+  font-weight: 300;
+  font-family: "Afacad", sans-serif;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.testimonial-card span {
+  display: block;
+  padding-bottom: 1rem;
+  border-bottom: 2px dashed var(--text-color);
+}
+
+.testimonial-card p {
+  margin-top: 1rem;
+}
+
+.testimonial-cards {
+  margin-top: 3rem;
+}
+
+@media (max-width: 1200px) {
+  .project-card {
+    flex-direction: column-reverse;
+  }
+
+  .project-text {
+    width: 100%;
+  }
+
+  .project-image img {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -418,6 +524,18 @@ main {
   .service-card .tags span {
     font-size: 0.8rem;
   }
+
+  .section-title p {
+    width: 100%;
+  }
+
+  .testimonial-card {
+    flex-wrap: wrap;
+  }
+
+  .testimonial-card .card {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -431,7 +549,7 @@ main {
   }
 
   .hero {
-    margin-top: 5rem;
+    margin-top: 8rem;
   }
 
   .hero h1,
@@ -445,6 +563,10 @@ main {
 
   .sub-service h3 {
     font-size: 1.7rem;
+  }
+
+  .project-card {
+    padding: 1.5rem;
   }
 }
 
@@ -471,10 +593,24 @@ main {
   }
 
   .about-container {
-    margin-top: 0.2rem;
+    margin-top: 1rem;
   }
 
   .about-text p {
-    text-align: start;
+    text-align: center;
+  }
+
+  .project-btn {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-card {
+    gap: 0.2rem;
+  }
+
+  .project-text h3 {
+    font-size: 1.7rem;
+    margin-bottom: 0;
   }
 }
