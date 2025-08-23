@@ -92,6 +92,10 @@ main {
   font-weight: 500;
 }
 
+.resume-btn a:hover {
+  color: var(--background-color);
+}
+
 .status {
   display: flex;
   align-items: center;
@@ -284,6 +288,10 @@ main {
 
 .about p {
   margin-bottom: 1rem;
+}
+
+.about-text span {
+  color: var(--primary-color);
 }
 
 .about-text {
