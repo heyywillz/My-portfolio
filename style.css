@@ -90,14 +90,6 @@ main {
   background-color: var(--primary-color);
   color: var(--background-color);
   font-weight: 500;
-  border: 1px solid var(--primary-color);
-}
-
-.resume-btn a:hover {
-  background-color: var(--background-color);
-  color: inherit;
-  font-weight: 400;
-  border: 1px solid var(--text-color);
 }
 
 .status {
