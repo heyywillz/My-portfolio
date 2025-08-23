@@ -581,6 +581,10 @@ main {
     padding: 0 1rem;
   }
 
+  .hero {
+    margin-top: 5rem;
+  }
+
   .hero p {
     width: 100%;
   }
