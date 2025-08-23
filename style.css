@@ -204,6 +204,9 @@ main {
 }
 
 .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 200px;
   height: 100px;
   background-color: var(--text-color);
@@ -214,6 +217,13 @@ main {
   animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  color: var(--background-color);
+
+}
+
+.item span {
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .item1 {
@@ -599,6 +609,11 @@ main {
 
   .hero-btn a {
     width: 85vw;
+  }
+
+  .item {
+  width: 200px;
+  height: 70px;
   }
 
   .about-container {
