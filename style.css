@@ -218,7 +218,6 @@ main {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   color: var(--background-color);
-
 }
 
 .item span {
@@ -330,6 +329,7 @@ main {
   width: 100%;
   background-color: #101111;
   border: 0.2px solid #1e1e1e;
+  border-radius: 10px;
 }
 
 .service-card h3 {
@@ -380,6 +380,7 @@ main {
   padding: 3.3rem 3rem 3rem 3rem;
   background-color: #101111;
   border: 0.2px solid #1e1e1e;
+  border-radius: 10px;
 }
 
 .project-text {
@@ -455,6 +456,7 @@ main {
 .testimonial-card .card {
   background-color: #101111;
   border: 0.2px solid #1e1e1e;
+  border-radius: 10px;
   padding: 1.5rem;
   width: 620px;
 }
@@ -612,8 +614,8 @@ main {
   }
 
   .item {
-  width: 200px;
-  height: 70px;
+    width: 200px;
+    height: 70px;
   }
 
   .about-container {
