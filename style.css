@@ -318,8 +318,8 @@ main {
 .service-card {
   max-width: 600px;
   width: 100%;
-  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: #101111;
+  border: 0.2px solid #1e1e1e;
 }
 
 .service-card h3 {
@@ -460,6 +460,10 @@ main {
   font-family: "Afacad", sans-serif;
   color: var(--primary-color);
   font-size: 1.2rem;
+}
+
+.card-title i {
+  font-size: 2rem;
 }
 
 .testimonial-card span {
