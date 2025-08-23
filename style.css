@@ -290,10 +290,6 @@ main {
   margin-bottom: 1rem;
 }
 
-.about-text span {
-  color: var(--primary-color);
-}
-
 .about-text {
   width: 50%;
 }
