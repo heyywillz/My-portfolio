@@ -503,9 +503,9 @@ main {
   width: 45%;
 }
 
-.socials h2 {
+.socials h3 {
   font-family: "Afacad", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 300;
   color: var(--primary-color);
   margin-bottom: 1rem;
@@ -557,7 +557,7 @@ main {
   margin-top: 2rem;
 }
 
-.follow h4 {
+.follow h3 {
   color: var(--primary-color);
   margin-bottom: 0.7rem;
   font-weight: 500;
@@ -592,7 +592,7 @@ main {
   width: 45%;
 }
 
-.message h4 {
+.message h3 {
   font-family: "Afacad", sans-serif;
   font-size: 2rem;
   font-weight: 300;
@@ -631,7 +631,7 @@ main {
 }
 
 .submit-btn {
-  padding: 0.7rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   background-color: var(--primary-color);
   color: var(--background-color);
   border: none;
@@ -844,7 +844,7 @@ footer {
   }
 
   .hero h1,
-  .section-title h2, .socials h2 {
+  .section-title h2 {
     font-size: 2rem;
   }
 
@@ -858,6 +858,10 @@ footer {
 
   .project-card {
     padding: 1.5rem;
+  }
+
+  .socials h3, .message h3 {
+    font-size: 1.5rem;
   }
 
   .footer-right {
@@ -921,5 +925,10 @@ footer {
   .project-text h3 {
     font-size: 1.7rem;
     margin-bottom: 0;
+  }
+
+  .submit-btn {
+    width: 100%;
+    text-align: center;
   }
 }
